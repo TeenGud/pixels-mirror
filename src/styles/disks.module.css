@@ -1,0 +1,196 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+.first {
+    position: absolute;
+    z-index: 30;
+    animation: first  4s linear infinite;
+    overflow: hidden;
+}
+
+.second {
+    position: absolute;
+    z-index: 30;
+    animation: second  3s linear infinite;
+    overflow: hidden;
+}
+
+.third {
+    position: absolute;
+    z-index: 30;
+    animation: third  2s linear infinite;
+    overflow: hidden;
+}
+
+
+.fourth {
+    position: absolute;
+    z-index: 10;
+    animation: fourth  4s linear infinite;
+    overflow: hidden;
+}
+.five {
+    position: absolute;
+    z-index: 20;
+    animation: five  3s linear infinite;
+    overflow: hidden;
+}
+.six {
+    position: absolute;
+    z-index: 20;
+    animation: six  2s linear infinite;
+    overflow: hidden;
+}
+@keyframes first {
+    from {
+        transform: translateY(20vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.3;
+    }
+    4% {
+        opacity: 0.5;
+    }
+    10% {
+        opacity: 0.8;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(180vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+
+@keyframes second {
+    from {
+        transform: translateY(-60vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.4;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(80vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+
+@keyframes third {
+    from {
+        transform: translateY(-80vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(40vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+
+@keyframes fourth {
+    from {
+        transform: translateY(-90vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(20vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+
+@keyframes five {
+    from {
+        transform: translateY(-90vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(40vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+
+@keyframes six {
+    from {
+        transform: translateY(-50vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(60vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
