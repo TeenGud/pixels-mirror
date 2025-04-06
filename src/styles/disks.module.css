@@ -45,6 +45,18 @@
     animation: six  2s linear infinite;
     overflow: hidden;
 }
+.seven {
+    position: absolute;
+    z-index: 20;
+    animation: seven  3s linear infinite;
+    overflow: hidden;
+}
+.eight {
+    position: absolute;
+    z-index: 20;
+    animation: seven  4s linear infinite;
+    overflow: hidden;
+}
 @keyframes first {
     from {
         transform: translateY(20vh) scale(2);
@@ -190,6 +202,54 @@
     }
     to {
         transform: translateY(60vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+@keyframes seven {
+    from {
+        transform: translateY(30vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(120vh) scale(2);
+        overflow-x: hidden;
+        opacity: 0.8;
+    }
+}
+@keyframes eight {
+    from {
+        transform: translateY(10vh) scale(2);
+        overflow-y: hidden;
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.1;
+    }
+    4% {
+        opacity: 0.3;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(70vh) scale(2);
         overflow-x: hidden;
         opacity: 0.8;
     }

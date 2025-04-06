@@ -17,6 +17,8 @@ export const Disks = ()  => {
             <Image src={SpeedFourth} alt='Disks' width={2537} height={1549} className={styles.fourth}/>
             <Image src={SpeedFith} alt='Disks' width={1959} height={1439} className={styles.five}/>
             <Image src={SpeedSix} alt='Disks' width={2537} height={1549} className={styles.six}/>
+            <Image src={SpeedFirst} alt='Disks' width={2537} height={1549} className={styles.seven}/>
+            <Image src={SpeedSecond} alt='Disks' width={2537} height={1549} className={styles.eight}/>
         </div>
     );
   }

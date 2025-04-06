@@ -1,3 +1,9 @@
+.wrapper {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
 .container {
     overflow: hidden;
     width: 100vw;
@@ -7,8 +13,59 @@
     align-items: center;
     justify-content: center;
 }
+.hover {
+    position: absolute;
+    width: 99vw;
+    height: 99vh;
+    z-index: 999;
+    transition: all .3s;
+    border-radius: 30px;
+}
 .bg {
     position: relative;
     z-index: 100;
     transform: scale(0.85);
+}
+.tg {
+    position: relative;
+    z-index: 101;
+    transform: scale(0.85);
+}
+.tgFull {
+    position: relative;
+    z-index: 101;
+    transform: scale(0.85);
+}
+.animation {
+    z-index: 999;
+    animation: animation  5s ease-in-out infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+}
+
+@keyframes animation {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bg {
+        transform: scale(1);
+        left: -20px;
+    }
+    .tg {
+        left: -20px;
+    }
+    .tgFull {
+        left: -20px;
+    }
+    .container {
+        width: 108vw;
+        height: 108vh;
+    }
 }
